@@ -31,10 +31,10 @@ const Landing = () => {
                  <div className={'nav-container'}>
                      <div className={'nav-social-media'}>
                          <ul>
-                             <li><NavLink to={'https://www.instagram.com/editorial_inefable/'}><FaInstagram /></NavLink></li>
-                             <li><NavLink to={'https://www.facebook.com/editorialinefable'}><FaFacebook /></NavLink></li>
-                             <li><NavLink to={'https://twitter.com/InefableLibros'}><FaXTwitter /></NavLink></li>
-                             <li><NavLink to={'http://www.tiktok.com/@inefablelibros'}><FaTiktok /></NavLink></li>
+                             <li><NavLink to={'https://www.instagram.com/editorial_inefable/'} target="_blank" rel="noopener noreferrer"  ><FaInstagram /></NavLink></li>
+                             <li><NavLink to={'https://www.facebook.com/editorialinefable'} target="_blank" rel="noopener noreferrer" ><FaFacebook /></NavLink></li>
+                             <li><NavLink to={'https://twitter.com/InefableLibros'} target="_blank" rel="noopener noreferrer" ><FaXTwitter /></NavLink></li>
+                             <li><NavLink to={'http://www.tiktok.com/@inefablelibros'} target="_blank" rel="noopener noreferrer" ><FaTiktok /></NavLink></li>
                          </ul>
                      </div>
                      <div className={'nav-logo'}><a href='#header'><img alt={''} src={logo} /></a></div>
@@ -56,13 +56,13 @@ const Landing = () => {
             <div className={'container'}>
                 <div className={'bio-container'}>
                     <div className={'bio-info'}>
-                        <h2>Ricardo Ravelo Galó</h2>
-                        <p>Es un periodista mexicano quien inicio su carrera como reportero en el año 1987, trabajando en los periódicos El Dictamen, La Nación, El Diario Sur, Diario del Istmo, revista Llave y Notiver.
-                            <br />En 1991 empezó a trabajar en la revista Proceso donde se le asignó la fuente policiaca. Actualmente se dedica a la investigación de temas relacionados con el narcotráfico, la justicia y la seguridad. <br/>El 9 de abril de 2011, recibió un homenaje en la
+                        <h2>Ricardo Ravelo Galo</h2>
+                        <p>Es un periodista mexicano quien inicio su carrera como reportero en 1987, trabajando en los periódicos  <em>El Dictamen</em>, <em>La Nación</em>, <em>El Diario Sur</em>, <em>Diario del Istmo</em>, revista <em>Llave</em> y <em>Notiver</em>.
+                            <br />En 1991 empezó a trabajar en la revista <em>Proceso</em> donde se le asignó la fuente policiaca. Actualmente se dedica a la investigación de temas relacionados con el narcotráfico, la justicia y la seguridad. <br/>El 9 de abril de 2011, recibió un homenaje en la
                             ciudad de Cosamaloapan donde, en sesión solemne
                             de cabildo, las autoridades lo declararon «Hijo Predilecto».
                             <br/><br/>
-                            En 2013 fue galardonado con el premio Rodolfo Walsh, que se concede a obras de no ficción del género negro, por su obra Narcomex: historia e historias de una guerra, en Gijón, España.</p>
+                            En 2013 fue galardonado con el premio Rodolfo Walsh, que se concede a obras de no ficción del género negro, por su obra Narcomex: <em>historia e historias de una guerra</em>, en Gijón, España.</p>
                     </div>
                     <div className={'bio-img'}><img alt={''} src={bio} /></div>
                 </div>
@@ -80,9 +80,9 @@ const Landing = () => {
                         <p>
                             México podría ser calificado de un país muy exitoso en lo que se denomina “gatopardismo”: cuando todo cambia, pero sigue igual o peor. Es así cuando hablamos del poder que ejerce el crimen organizado en vastas zonas del país, con el amparo o complicidad del poder político en todos los niveles. El viejo régimen parece agonizar en numerosos estados del país, pero el poder del crimen sigue fortaleciéndose.
                             <br /><br />
-                            En esta obra de Ricardo Ravelo, uno de los periodistas más reconocidos y valientes de México, se documenta cómo conviven la delincuencia organizada y el poder político en el Estado de Jalisco. Gobernado por el ingeniero Enrique Alfaro, el estado se ha convertido en una de las entidades más violentas de la nación, cuyas mafias y cárteles controlan hasta el 80 por ciento de su territorio y se han expandido por vastas zonas del país, desapareciendo personas de personas, sembrando muerte y corrupción. De persistir esta tendencia, el país puede convertirse en un estado fallido, ante la nulidad de las autoridades locales y federales.
+                            En esta obra de Ricardo Ravelo, uno de los periodistas más reconocidos y valientes de México, se documenta cómo conviven la delincuencia organizada y el poder político en el estado de Jalisco. Gobernado por el ingeniero Enrique Alfaro, el estado se ha convertido en una de las entidades más violentas de la nación, cuyas mafias y cárteles controlan hasta el 80% de su territorio y se han expandido por vastas zonas del país, desapareciendo personas, sembrando muerte y corrupción. De persistir esta tendencia, el país puede convertirse en un Estado fallido, ante la nulidad de las autoridades locales y federales.
                             <br /><br />
-                            Intolerante a la crítica periodística, el gobernador Enrique Alfaro se ha confrontado con diversos periodistas que han cuestionado su desgobierno. Mediante amenazas directas, o bien advirtiendo con interponer denuncias penales, el mandatario se ha mostrado violento, insultante y bravucón ante la prensa crítica estatal y nacional. No soporta que le cuestionen sobre sus negocios. Mucho menos que le señalen sus errores y desatinos en materia de seguridad. El amo de Jalisco es una clara y dolorosa muestra del México de nuestro tiempo.
+                            Intolerante a la crítica periodística, el gobernador Enrique Alfaro se ha confrontado con diversos periodistas que han cuestionado su desgobierno. Mediante amenazas directas, o bien advirtiendo con interponer denuncias penales, el mandatario se ha mostrado violento, insultante y bravucón ante la prensa crítica estatal y nacional. No soporta que le cuestionen sobre sus negocios. Mucho menos que le señalen sus errores y desatinos en materia de seguridad. <br/><br/> <em>El amo de Jalisco es una clara y dolorosa muestra del México de nuestro tiempo</em>.
                         </p>
                     </div>
                 </div>
