@@ -219,7 +219,7 @@ main {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 2rem;
+      padding: 0 4rem;
       &-book {
         width: 100%;
         img {
@@ -261,7 +261,6 @@ main {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
         background: linear-gradient(45deg, $dark 30%, $gray);
       }
       .bio-info {
@@ -270,20 +269,22 @@ main {
         padding: 5rem 2rem;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
         h2 {
           width: 100%;
+          max-width: 450px;
           text-align: left;
           font-size: 2.5rem;
           font-family: "ZuumeMedium";
           margin-bottom: .5rem;
+          padding-left: 10rem;
         }
         p {
           width: 100%;
           font-size: 1.2rem;
-          max-width: 450px;
+          max-width: 570px;
           font-weight: 300;
           font-family: "LeituraSans-Grot2";
+          padding-left: 10rem;
         }
       }
       .bio-img {
@@ -623,6 +624,10 @@ main {
           align-items: center;
           h2 {
             text-align: center;
+            padding-left: 0rem;
+          }
+          p{
+            padding-left: 0rem;
           }
         }
         .bio-img {
