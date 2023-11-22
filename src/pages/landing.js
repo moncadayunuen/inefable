@@ -57,12 +57,12 @@ const Landing = () => {
                 <div className={'bio-container'}>
                     <div className={'bio-info'}>
                         <h2>Ricardo Ravelo Galo</h2>
-                        <p>Es un periodista mexicano quien inicio su carrera como reportero en 1987, trabajando en los periódicos  <em>El Dictamen</em>, <em>La Nación</em>, <em>El Diario Sur</em>, <em>Diario del Istmo</em>, revista <em>Llave</em> y <em>Notiver</em>.
-                            <br />En 1991 empezó a trabajar en la revista <em>Proceso</em> donde se le asignó la fuente policiaca. Actualmente se dedica a la investigación de temas relacionados con el narcotráfico, la justicia y la seguridad. <br/>El 9 de abril de 2011, recibió un homenaje en la
+                        <p>Es un periodista mexicano quien inicio su carrera como reportero en 1987, trabajando en los periódicos  <i>El Dictamen</i>, <i>La Nación</i>, <i>El Diario Sur</i>, <i>Diario del Istmo</i>, revista <i>Llave</i> y <i>Notiver</i>.
+                            <br />En 1991 empezó a trabajar en la revista <i>Proceso</i> donde se le asignó la fuente policiaca. Actualmente se dedica a la investigación de temas relacionados con el narcotráfico, la justicia y la seguridad. <br/>El 9 de abril de 2011, recibió un homenaje en la
                             ciudad de Cosamaloapan donde, en sesión solemne
                             de cabildo, las autoridades lo declararon «Hijo Predilecto».
                             <br/><br/>
-                            En 2013 fue galardonado con el premio Rodolfo Walsh, que se concede a obras de no ficción del género negro, por su obra Narcomex: <em>historia e historias de una guerra</em>, en Gijón, España.</p>
+                            En 2013 fue galardonado con el premio Rodolfo Walsh, que se concede a obras de no ficción del género negro, por su obra Narcomex: <i>historia e historias de una guerra</i>, en Gijón, España.</p>
                     </div>
                     <div className={'bio-img'}><img alt={''} src={bio} /></div>
                 </div>
@@ -82,7 +82,7 @@ const Landing = () => {
                             <br /><br />
                             En esta obra de Ricardo Ravelo, uno de los periodistas más reconocidos y valientes de México, se documenta cómo conviven la delincuencia organizada y el poder político en el estado de Jalisco. Gobernado por el ingeniero Enrique Alfaro, el estado se ha convertido en una de las entidades más violentas de la nación, cuyas mafias y cárteles controlan hasta el 80% de su territorio y se han expandido por vastas zonas del país, desapareciendo personas, sembrando muerte y corrupción. De persistir esta tendencia, el país puede convertirse en un Estado fallido, ante la nulidad de las autoridades locales y federales.
                             <br /><br />
-                            Intolerante a la crítica periodística, el gobernador Enrique Alfaro se ha confrontado con diversos periodistas que han cuestionado su desgobierno. Mediante amenazas directas, o bien advirtiendo con interponer denuncias penales, el mandatario se ha mostrado violento, insultante y bravucón ante la prensa crítica estatal y nacional. No soporta que le cuestionen sobre sus negocios. Mucho menos que le señalen sus errores y desatinos en materia de seguridad. <br/><br/> <em>El amo de Jalisco es una clara y dolorosa muestra del México de nuestro tiempo</em>.
+                            Intolerante a la crítica periodística, el gobernador Enrique Alfaro se ha confrontado con diversos periodistas que han cuestionado su desgobierno. Mediante amenazas directas, o bien advirtiendo con interponer denuncias penales, el mandatario se ha mostrado violento, insultante y bravucón ante la prensa crítica estatal y nacional. No soporta que le cuestionen sobre sus negocios. Mucho menos que le señalen sus errores y desatinos en materia de seguridad. <br/><br/> <i>El amo de Jalisco</i> es una clara y dolorosa muestra del México de nuestro tiempo.
                         </p>
                     </div>
                 </div>
