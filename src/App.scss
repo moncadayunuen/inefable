@@ -1,4 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:opsz@6..96&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400&display=swap');
+@font-face {
+  font-family: "KeplerStdMediumDisp";   /*Can be any text*/
+  src: local("KeplerStd-MediumDisp"),
+    url("./assets/fonts/KeplerStd-MediumDisp.otf") format("opentype");
+}
+@font-face {
+  font-family: "KeplerStd-Light";   /*Can be any text*/
+  src: local("KeplerStd-Light"),
+    url("./assets/fonts/KeplerStd-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "ZuumeBold";   /*Can be any text*/
+  src: local("ZuumeBold"),
+    url("./assets/fonts/ZuumeBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ZuumeMedium";   /*Can be any text*/
+  src: local("ZuumeMedium"),
+    url("./assets/fonts/ZuumeMedium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LeituraSans-Italic2";   /*Can be any text*/
+  src: local("LeituraSans-Italic2"),
+    url("./assets/fonts/LeituraSans-Italic2.otf") format("opentype");
+}
+@font-face {
+  font-family: "LeituraSans-Grot2";   /*Can be any text*/
+  src: local("LeituraSans-Grot2"),
+    url("./assets/fonts/LeituraSans-Grot2.otf") format("opentype");
+}
+@font-face {
+  font-family: "LeituraSans-Grot1";   /*Can be any text*/
+  src: local("LeituraSans-Grot1"),
+    url("./assets/fonts/LeituraSans-Grot1.otf") format("opentype");
+}
 
 $black: #000000;
 $gray: #2b2a2a;
@@ -13,6 +48,7 @@ html, * {
   color: $white;
   font-family: 'Noto Sans JP', sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -107,7 +143,7 @@ main {
         justify-content: flex-end;
         align-items: flex-end;
         a {
-          font-family: 'Bodoni Moda', serif;
+          font-family: "KeplerStdMediumDisp";
           font-size: 1.2rem;position: relative;
           text-decoration: none;
           width: max-content;
@@ -117,7 +153,7 @@ main {
           transition: .3s ease-in-out;
           &:before {
             content: '';
-            background: #da081d;
+            background: $white;
             width: 0;
             top: 0;
             left: -3px;
@@ -128,6 +164,7 @@ main {
             transition: .25s ease-in-out;
           }
           &:hover {
+            color: $black;
             &:before {
               content: '';
               width: 84px;
@@ -194,13 +231,12 @@ main {
       &-info {
         width: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        align-items:flex-end;
         flex-direction: column;
         h1 {
           width: 100%;
-          max-width: 450px;
-          font-family: 'Bebas Neue', sans-serif;
+          max-width: 510px;
+          font-family: "ZuumeMedium";
           font-size: 2.5rem;
           text-align: right;
         }
@@ -208,6 +244,7 @@ main {
           width: 100%;
           max-width: 450px;
           text-transform: uppercase;
+          font-family: "LeituraSans-Italic2";
           color: $light;
           font-size: 1.2rem;
           text-align: right;
@@ -238,20 +275,21 @@ main {
           width: 100%;
           text-align: left;
           font-size: 2.5rem;
-          font-family: 'Bebas Neue', sans-serif;
+          font-family: "ZuumeMedium";
           margin-bottom: .5rem;
         }
         p {
           width: 100%;
           font-size: 1.2rem;
-          max-width: 500px;
+          max-width: 450px;
           font-weight: 300;
+          font-family: "LeituraSans-Grot2";
         }
       }
       .bio-img {
         width: 100%;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         img {
           width: auto;
           height: 700px;
@@ -274,26 +312,25 @@ main {
         height: max-content;
         display: flex;
         justify-content: space-between;
-        align-items: center;
       }
       .book-info {
-        width: 70%;
+        width: 95%;
         display: flex;
         padding: 5rem 2rem;
         flex-direction: column;
-        justify-content: center;
+        // justify-content: center;
         align-items: flex-end;
         h2 {
           width: 100%;
           text-align: right;
           font-size: 2.5rem;
-          font-family: 'Bebas Neue', sans-serif;
+          font-family: "ZuumeMedium";
           margin-bottom: .5rem;
         }
         h3 {
           font-size: 1.2rem;
           text-align: right;
-          font-family: 'Noto Sans Japanese', sans-serif;
+          font-family: "LeituraSans-Grot1";
           font-weight: 300;
           margin-bottom: 2rem;
         }
@@ -308,11 +345,12 @@ main {
       .book-text {
         width: 100%;
         display: flex;
-        justify-content: center;
-        padding: 0 2rem;
+        justify-content: left;
+        padding-top: 5.5rem;
         p {
+          font-family: "LeituraSans-Grot2";
           width: 100%;
-          max-width: 500px;
+          max-width: 400px;
           font-size: 1rem;
           font-weight: 300;
         }
@@ -347,7 +385,8 @@ main {
          width: auto;
          height: 42px;
        }
-       p {
+       a {
+        text-decoration: none;
          width: 100%;
          display: flex;
          align-items: flex-start;
@@ -365,11 +404,12 @@ main {
        display: flex;
        justify-content: flex-end;
        align-items: center;
-       p {
+       a {
+        text-decoration: none;
          text-align: right;
          font-size: .9rem;
          display: flex;
-         font-family: 'Bodoni Moda', sans-serif;
+         font-family: "KeplerStd-Light";
          align-items: flex-end;
          justify-content: center;
          flex-direction: column;
@@ -416,6 +456,7 @@ main {
       .section-header {
         flex-direction: column;
         padding: 5rem 0;
+        height: calc(80vh);
         &-book {
           display: flex;
           justify-content: center;
@@ -518,7 +559,9 @@ main {
         height: 100px;
         .nav-social-media {
           ul {
-            gap: .5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
             li a {
               svg {
                 font-size: 1rem;
@@ -534,6 +577,8 @@ main {
         .nav-contact {
           a {
             font-size: 1rem;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
             &:hover {
               &:before {
                 content: '';
@@ -661,6 +706,7 @@ main {
           }
         }
         &.scrolling {
+          height: 110px;
           .nav-logo {
             img {
               height: 35px;
