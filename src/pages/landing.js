@@ -57,12 +57,12 @@ const Landing = () => {
                 <div className={'bio-container'}>
                     <div className={'bio-info'}>
                         <h2>Ricardo Ravelo Galo</h2>
-                        <p>Es un periodista mexicano quien inicio su carrera como reportero en 1987, trabajando en los periódicos  <i>El Dictamen</i>, <i>La Nación</i>, <i>El Diario Sur</i>, <i>Diario del Istmo</i>, revista <i>Llave</i> y <i>Notiver</i>.
+                        <p>Es un periodista mexicano quien inició su carrera como reportero en 1987, trabajando en los periódicos  <i>El Dictamen</i>, <i>La Nación</i>, <i>El Diario Sur</i>, <i>Diario del Istmo</i> y las revistas <i>Llave</i> y <i>Notiver</i>.
                             <br />En 1991 empezó a trabajar en la revista <i>Proceso</i> donde se le asignó la fuente policiaca. Actualmente se dedica a la investigación de temas relacionados con el narcotráfico, la justicia y la seguridad. <br/>El 9 de abril de 2011, recibió un homenaje en la
                             ciudad de Cosamaloapan donde, en sesión solemne
                             de cabildo, las autoridades lo declararon «Hijo Predilecto».
                             <br/><br/>
-                            En 2013 fue galardonado con el premio Rodolfo Walsh, que se concede a obras de no ficción del género negro, por su obra Narcomex: <i>historia e historias de una guerra</i>, en Gijón, España.</p>
+                            En 2013 fue galardonado con el premio Rodolfo Walsh, que se concede a obras de no ficción del género negro, por su obra <i>Narcomex: historia e historias de una guerra</i>, en Gijón, España.</p>
                     </div>
                     <div className={'bio-img'}><img alt={''} src={bio} /></div>
                 </div>
@@ -95,13 +95,13 @@ const Landing = () => {
                         <img alt={''} src={footer} />
                         <div className={'left-bottom'}>
                             <a href='https://maps.app.goo.gl/GeVQMuJdzjP2TpSu8' target="_blank" rel="noreferrer">Mitikah, Av. Río Churubusco 601, Xoco,</a>
-                            <a href='https://maps.app.goo.gl/GeVQMuJdzjP2TpSu8' target="_blank" rel="noreferrer">Coyoacán, 03330 Ciudad de México, CDMX</a>
+                            <a href='https://maps.app.goo.gl/GeVQMuJdzjP2TpSu8' target="_blank" rel="noreferrer">Coyoacán, 03330, Ciudad de México, CDMX</a>
                         </div>
                     </div>
                     <div className={'center'}><img alt={''} src={inefable} /></div>
                     <div className={'right'}>
                         <div>
-                            <a href='mailto:contacto@inefable.mx'>contacto@editorialinefable.com</a>
+                            <a href='mailto:contacto@inefable.mx' target="_blank" rel="noopener noreferrer">contacto@editorialinefable.com</a>
                             <a href="tel:5547707728">55 4770 7728</a>
                         </div>
                     </div>
