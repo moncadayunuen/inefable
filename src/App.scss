@@ -789,51 +789,10 @@ main {
 @media (max-width: 575px) {
   main {
     header {
-      background: linear-gradient(-45deg, $dark 30%, $gray);
-      .nav {
-        .nav-logo {
-          img {
-            height: 40px;
-          }
-        }
-        .nav-contact {
-          a {
-            font-size: .9rem;
-            &:hover {
-              &:before {
-                content: '';
-                width: 68px;
-              }
-            }
-          }
-        }
-        &.scrolling {
-          height: 110px;
-          .nav-logo {
-            img {
-              height: 35px;
-            }
-          }
-        }
-      }
       .section-header {
-        flex-direction: column;
-        padding: 5rem 0;
         &-book {
-          display: flex;
-          justify-content: center;
           img {
-            height: 180px;
-          }
-        }
-        &-info {
-          h1 {
-            max-width: 450px;
-            font-size: 2rem;
-          }
-          p {
-            max-width: 450px;
-            font-size: 1rem;
+            height: 200px;
           }
         }
       }
@@ -841,31 +800,22 @@ main {
     section {
       &.bio {
         .bio-info {
-          p {
-            font-size: .9rem;
-          }
-        }
-        .bio-img {
-          img {
-            height: 300px;
+          p{
+            font-size: 1rem;
+            i {
+              font-size: 1rem;
+            }
           }
         }
       }
       &.book {
-        .book-container {
-          justify-content: center;
-          flex-direction: column;
-        }
         .book-info {
-          width: 100%;
-          align-items: center;
           h2 {
-            font-size: 2rem;
-            text-align: center;
+            font-size: 3rem;
+            text-align: left;
           }
           h3 {
-            font-size: 1rem;
-            text-align: center;
+            font-size: 1.5rem;
           }
           &-img {
             img {
@@ -874,8 +824,14 @@ main {
           }
         }
         .book-text {
+          width: 100%;
+          padding: 2rem 1rem 0  1rem;
+          justify-content: center;
           p {
-            font-size: .9rem;
+            font-size: 1rem;
+            i {
+              font-size: 1rem;
+            }
           }
         }
       }
@@ -884,7 +840,7 @@ main {
       .footer {
         .logo {
           img {
-            height: 30px;
+            height: 40px;
           }
         }
         .contact {
@@ -897,10 +853,9 @@ main {
             height: 30px;
           }
           .left-bottom {
-            margin-left: .5rem;
+            margin-left: .25rem;
             a {
               font-size: .8rem;
-              line-height: .8rem;
             }
           }
         }
