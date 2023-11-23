@@ -30,7 +30,7 @@ const Landing = () => {
     }
 
 
-    const [windowDimensions,setWindowDimensions] = useState(0);
+    const [windowDimensions,setWindowDimensions] = useState(window.innerWidth);
     const [isMobile,setIsMobile] = useState(false);
 
     useEffect(() => {
