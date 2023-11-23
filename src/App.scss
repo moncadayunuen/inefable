@@ -510,6 +510,7 @@ main {
           h2 {
             font-size: 2rem;
             line-height: 2.2rem;
+            padding-left: 0rem;
             span {
               font-size: 1.2rem;
               line-height: 1.4rem;
@@ -519,6 +520,7 @@ main {
           p {
             font-size: 1.2rem;
             line-height: 1.4rem;
+            padding-left: 0rem;
             span {
               font-size: 1.2rem;
               line-height: 1.4rem;
@@ -655,6 +657,7 @@ main {
             font-size: 1rem;
             writing-mode: vertical-rl;
             transform: rotate(180deg);
+            padding-left: 3rem;
             &:hover {
               &:before {
                 content: '';
@@ -676,6 +679,7 @@ main {
               font-size: 1rem;
               writing-mode: vertical-rl;
               transform: rotate(180deg);
+              padding-left: 0;
               &:hover {
                 &:before {
                   content: '';
@@ -750,7 +754,7 @@ main {
         }
         .book-info {
           width: 100%;
-          padding: 0 2rem;
+          padding: 1rem 0.5rem 2rem 0.5rem;
           align-items: flex-start;
           h2 {
             font-size: 4rem;
@@ -769,7 +773,7 @@ main {
         }
         .book-text {
           width: 100%;
-          padding: 2rem 1rem 0  1rem;
+          padding: 1rem 0.5rem 2rem 0.5rem;
           justify-content: center;
           p {
             font-size: 1.2rem;
@@ -825,7 +829,7 @@ main {
         }
         .book-text {
           width: 100%;
-          padding: 2rem 1rem 0  1rem;
+          padding: 1rem 0.5rem 2rem 0.5rem;
           justify-content: center;
           p {
             font-size: 1rem;
