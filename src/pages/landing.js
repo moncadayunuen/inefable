@@ -141,7 +141,7 @@ const Landing = () => {
                             <div className={'logo'}><img alt={''} src={inefable} /></div>
                             <div className={'contact'}>
                                 <div>
-                                    <a href='mailto:contacto@inefable.mx' target="_blank" rel="noopener noreferrer">contacto@editorialinefable.com</a>
+                                    <a href='mailto:contacto@editorialinefable.com' target="_blank" rel="noopener noreferrer">contacto@editorialinefable.com</a>
                                     <a href="tel:5547707728">55 4770 7728</a>
                                 </div>
                             </div>
