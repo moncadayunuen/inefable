@@ -878,3 +878,24 @@ main {
     }
   }
 }
+
+@media (max-width: 390px){
+  main {
+    header {
+      .section-header {
+        height: calc(100vh - 100px);
+        &-book {
+          img {
+            height: auto;
+            width: 240px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: 100%;
+  }
+}
